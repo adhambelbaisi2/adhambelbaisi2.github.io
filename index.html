@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- link to the styles in style.css -->
+    <title>Adhams Portfolio</title>
+</head>
+<body>
+    <!-- Header section -->
+    <section id="header">
+        <!-- Div element with 2 classes: header and container -->
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1><span>A</span>dham <span>B</span>elbaisi</h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#about" data-after="About">About</a></li>
+                <li><a href="#projects" data-after="Projects">Projects</a></li>
+                <li><a href="#contact" data-after="Contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End of Header section-->
+
+    <!-- Hero section -->
+    <section id="hero">
+        <!-- Div element with 2 classes: hero and container -->
+        <div class="hero container">
+            <div>
+                <!-- Text in the hero section --> 
+                <h1>Hi there! <span></span></h1>
+                <h1>I'm Adham. <span></span></h1>.
+                <h2>A software developer currently working at Tietoevry</h2> 
+                <a href="#projects" type="button" class="cta">Portfolio</a> <!-- Button in the hero section -->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End of Hero section -->
+
+    <!-- About section -->
+    <section id="about">
+        <!-- Div element with 2 classes: about and container -->
+        <div class="about container">
+            <!-- Div element for the left part of the About section -->
+            <div class="col-left">
+                <div class="about-image">
+                    <img src="Images/adham.jpg" alt="An image of myself.">
+                </div>
+            </div>
+
+            <!-- Div element for the right part of the About section -->
+            <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <!-- <h2>Software Developer</h2> -->
+                <p>I'm a software developer with passion for development and digitization. Driven by contributing to the future digital society and creating purposeful technology. 
+                    I consider myself a team player and a fast learner. Solid skills in C#, Java, Python, SQL and more.
+                    In addition, I am an AI enthusiast with several courses and projects in medical image analysis.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of About section -->
+
+    <!-- Project section -->
+    <section id="projects">
+        <!-- Div element with 2 classes: projects and container -->
+        <div class="projects container">
+            <!-- Div element for the header part of the Project section -->
+            <div class="projects-header">
+                <!-- The title of the Project section-->
+                <h1 class="section-title">Recent <span>Projects</span></h1>
+            </div>
+
+            <!-- Div element for the project cards of the Project section -->
+            <div class="all-projects">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>ChatApp</h1>
+                        <p>A prototype of a chat application developed in C#. It contains both front- and backend functionality, including a backend server written in ASP.NET Core and an SQL database.
+                            Some key features implemented in this application: user registration and login using token-based authentication, email service, caching user data on client machine, dependency injection, custom logging, error & exception handling.</p>
+                        <a title="github-repo" href="https://github.com/adhambelbaisi/ChatApp" target="_blank"><img src="Images/github_icon.png" alt="Github_icon"></a>
+                    </div>
+                    <div class="project-image">
+                        <a href="Images/Chatapp.png" target="_blank" title="Click for full image"><img src="Images/Chatapp.png" alt="An image of the ChatApp application."></a>
+                        <h1 class="title">Click for full image</h1>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>SmartCardAPI</h1>
+                        <p>C# .NET application (written in WPF and built according to the MVVM design pattern) for working with smart chip cards (specifically SITHS cards - smart cards used in the swedish healthcare sector for authentication) using Windows Certificate Store and the application Net iD as backbone.
+                            The program reads certificate information on the smart card and has functionality for ecrypting and decrypting data using a certificate stored on the smartcard, as well as signing data to create a digital signature.</p>
+                        <a title="github-repo" href="https://github.com/adhambelbaisi/SmartCardAPI" target="_blank"><img src="Images/github_icon.png" alt="Github_icon"></a>
+                    </div>
+                    <div class="project-image">
+                        <a href="Images/SmartcardAPI.png" target="_blank" title="Click for full image"><img src="Images/SmartcardAPI.png" alt="An image of the SmartCardAPI application."></a>
+                        <h1 class="title">Click for full image</h1>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Image Visualization tool for COVID-19 lesions</h1>
+                        <p>Python application for visualizing COVID-19 lesions in CT images. The application has functionality for visualizing 3D data, multiplanar reconstruction, three plane visualization and more. The application was developed in collaboration with a mate of mine during our time at university.</p>
+                        <a title="github-repo" href="https://github.com/adhambelbaisi/CM2006-TRABEL" target="_blank"><img src="Images/github_icon.png" alt="Github_icon"></a>
+                    </div>
+                    <div class="project-image">
+                        <a href="Images/CT_visualization_tool.png" target="_blank" title="Click for full image"><img src="Images/CT_visualization_tool.png" alt="An image of the CT-visualization tool."></a>
+                        <h1 class="title">Click for full image</h1>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Personal Portfolio</h1>
+                        <p>This portfolio website you are scrolling through right now was developed from scratch using HTML, CSS and JavaScript. Its my first website built from scratch, definitely the first of many!</p>
+                        <a title="github-repo" href="#" target="_blank"><img src="Images/github_icon.png" alt="Github_icon"></a>
+                    </div>
+                    <div class="project-image">
+                        <!-- 2 different ways to make an image clickable -->
+                        <!--  <img src="Images/portfolio.png" alt="An image of the portfolio website." onclick="window.open(this.src)" role="button" tabIndex="0"> -->
+                        <a href="Images/portfolio.png" target="_blank" title="Click for full image"><img src="Images/portfolio.png" alt="An image of the portfolio website."></a> 
+                        <h1 class="title">Click for full image</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Project section -->
+
+    <!-- Contact section -->
+    <section id="contact">
+        <!-- Div element with 2 classes: contact and container -->
+        <div class="contact container">
+            <div class="contact-items">
+                <h1 class="section-title">Contact <span>me</span></h1>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/adham-belbaisi/" target="_blank" class="cta"><img src="Images/linkedin_icon.png" alt="LinkedIn_icon"></a>
+                <a title="Github" href="https://github.com/adhambelbaisi" target="_blank" class="cta"><img src="Images/github_icon.png" alt="Github_icon"></a>
+                <a title="Email" href="mailto:adhambelbaisi@gmail.com" class="cta"><img src="Images/email_icon.png" alt="Email_icon"></a>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Contact section -->
+
+    <!-- Footer section -->
+    <section id="footer">
+        <!-- Div element with 2 classes: footer and container -->
+        <div class="footer container">
+            <div class="brand"><h1><span>A</span>dham <span>B</span>elbaisi</h1></div>
+            <p>Copyright © 2023. All rights reserved</p>
+        </div>
+
+    </section>
+    <!-- End of Footer section -->
+    <script src="/app.js"></script>
+</body>
+</html>
