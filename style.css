@@ -397,7 +397,7 @@ p {
 	transition: 0.3s ease transform;
 }
 #projects .project-image:hover {
-	transform: scale(1.10);
+	transform: scale(1.05);
 }
 
 #projects h1.title {
@@ -457,7 +457,6 @@ p {
 @keyframes text_reveal_name {
 	100% {
 		color: rgb(37, 88, 182);
-		font-weight: 500;
 	}
 }
 
